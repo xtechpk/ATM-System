@@ -74,7 +74,7 @@ public class App {
     }
 
     private static void accessATM(Scanner scanner) {
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
